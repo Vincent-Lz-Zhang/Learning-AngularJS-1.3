@@ -5,3 +5,14 @@ For simplity, I removed all dependencies of other JS libraries like jQuery, and 
 ## Good references
 
 http://angularjstutorials.net/angularjs-interview-questions-with-sample-answers-part1.html
+
+https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
+
+https://github.com/toddmotto/angularjs-styleguide
+
+https://github.com/SavageBits/angular-styleguide
+
+https://github.com/mgechev/angularjs-style-guide
+
+
+
