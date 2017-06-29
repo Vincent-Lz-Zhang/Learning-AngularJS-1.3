@@ -1,0 +1,582 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"b",
+				"border-color"
+			],
+			[
+				"s",
+				"span\tTag"
+			],
+			[
+				"ng",
+				"ng-click\tAngularJS"
+			],
+			[
+				"$s",
+				"$scope\tAngularJS"
+			],
+			[
+				"ng-s",
+				"ng-show\tAngularJS"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"curre",
+				"currentUsername"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Install Emmet\n\"hello\".toUpperCase();\n\"hello\".someProperty = 17;\n\"hello\".someProperty; // undefined\n\n",
+			"settings":
+			{
+				"buffer_size": 100,
+				"line_ending": "Windows",
+				"name": "Install Emmet"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/routing.html",
+			"settings":
+			{
+				"buffer_size": 2316,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 1012,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/common/header.html",
+			"settings":
+			{
+				"buffer_size": 475,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ssc",
+				"Set Syntax: C#"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"typescript",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"c",
+				"Set Syntax: C#"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/ng-vince",
+		"/C/wamp/www/ng-vince/scripts",
+		"/C/wamp/www/ng-vince/styles",
+		"/C/wamp/www/ng-vince/views",
+		"/C/wamp/www/ng-vince/views/common"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/ng-vince/views/routing.html",
+		"/C/wamp/www/ng-vince/views/controller.html",
+		"/C/wamp/www/ng-vince/views/startup.html",
+		"/C/wamp/www/ng-vince/views/common/header.html",
+		"/C/wamp/www/ng-vince/views/header.html",
+		"/C/wamp/www/ng-vince/README.md",
+		"/C/wamp/www/ng-vince/scripts/app.js",
+		"/C/wamp/www/ng-vince/views/footer.html",
+		"/C/wamp/www/ng-vince/images/index.html",
+		"/C/wamp/www/ng-vince/images/demo/index.html",
+		"/C/wamp/www/ng-vince/styles/layout.css",
+		"/D/workcomplex/old-repos/club-clientangularjs/views/index.html",
+		"/D/workcomplex/old-repos/club-clientangularjs/views/common/header.html",
+		"/D/workcomplex/old-repos/club-clientangularjs/index.html",
+		"/D/workcomplex/old-repos/club-clientangularjs/js/lang/translation_tc.json",
+		"/D/workcomplex/old-repos/club-clientangularjs/js/lang/translation_en.json",
+		"/D/workcomplex/old-repos/club-clientangularjs/views/common/footer.html",
+		"/D/workcomplex/old-repos/club-clientangularjs/js/lib/jquery.js",
+		"/D/workcomplex/old-repos/club-clientangularjs/js/app.js",
+		"/D/HTML-Themes/Metis/Bootstrap-Admin-Template-master/gulpfile.babel.js",
+		"/C/wamp/www/ng-vince/index.html",
+		"/D/dropbox/th-in@hotm/Dropbox/MyWorkSpace/ImportTempWork/aimyPlus/Feature-Proposals/Check-ins/KiwiEntitiesExtensions.cs",
+		"/D/dropbox/th-in@hotm/Dropbox/MyWorkSpace/ImportTempWork/aimyPlus/Feature-Proposals/Check-ins/ParentController.cs",
+		"/D/dropbox/th-in@hotm/Dropbox/MyWorkSpace/ImportTempWork/aimyPlus/Feature-Proposals/Check-ins/SecondParent.cshtml",
+		"/D/dropbox/th-in@hotm/Dropbox/MyWorkSpace/ImportTempWork/aimyPlus/Feature-Proposals/Check-ins/SecondEmergencyContact.cshtml",
+		"/D/dropbox/th-in@hotm/Dropbox/MyWorkSpace/ImportTempWork/aimyPlus/Feature-Proposals/Check-ins/EmergencyContact.cshtml",
+		"/D/dropbox/th-in@hotm/Dropbox/MyWorkSpace/ImportTempWork/aimyPlus/Feature-Proposals/Check-ins/EditParentContact.cshtml",
+		"/D/workcomplex/jslab/ds.lab/oop/demo-of-constructor.js",
+		"/D/workcomplex/jslab/ds.lab/oop/impact-of-fun-proto-change.js",
+		"/D/workcomplex/jslab/ds.lab/oop/__proto__support.js",
+		"/D/workcomplex/jslab/ds.lab/oop/access-object-[[protorype]].js",
+		"/D/workcomplex/jslab/ds.lab/oop/how-instanceof-works.js",
+		"/D/workcomplex/jslab/ds.lab/oop/instanceof-not-work.js",
+		"/D/workcomplex/jslab/ds.lab/scope/my-own-test.js",
+		"/D/workcomplex/jslab/ds.lab/oth/clouser.js",
+		"/D/workcomplex/jslab/ds.lab/closures/scope-chain-affected.js",
+		"/D/workcomplex/jslab/ds.lab/closures/function-creator.js",
+		"/D/workcomplex/jslab/ds.lab/closures/closure-2.js",
+		"/D/workcomplex/jslab/ds.lab/closures/closure-1.js",
+		"/D/workcomplex/jslab/ds.lab/evaluation/bysharing.js",
+		"/D/workcomplex/jslab/varobj/home.html",
+		"/D/workcomplex/jslab/varobj/block-scope2.js",
+		"/D/workcomplex/jslab/varobj/oth/clouser.js",
+		"/D/workcomplex/jslab/varobj/my-ao-test2.js",
+		"/D/workcomplex/jslab/varobj/my-ao-test.js",
+		"/D/workcomplex/jslab/varobj/oop/literal-notation.js",
+		"/D/workcomplex/jslab/varobj/oop/wrapper-objects.js",
+		"/D/workcomplex/jslab/varobj/oop/dynamic-nature.js",
+		"/D/workcomplex/jslab/varobj/oop/primitive-type.js",
+		"/D/workcomplex/jslab/varobj/this/with-clause5.js",
+		"/D/workcomplex/jslab/varobj/this/with-clause4.js",
+		"/D/workcomplex/jslab/varobj/this/with-clause3.js",
+		"/D/workcomplex/jslab/varobj/this/with-clause2.js",
+		"/D/workcomplex/jslab/varobj/this/with-clause.js",
+		"/D/workcomplex/jslab/varobj/this/catch-clause.js",
+		"/D/workcomplex/jslab/varobj/this/classic-example.js",
+		"/D/workcomplex/jslab/varobj/this/related-to-how-fun-is-invoked.js",
+		"/D/workcomplex/jslab/varobj/this/how-fun-is-invoked.js",
+		"/D/workcomplex/jslab/varobj/this/hos-fun-is-invoked.js",
+		"/D/workcomplex/jslab/varobj/this/related-to-how-function-is-invoked.js",
+		"/D/workcomplex/jslab/varobj/this/not-related-to-how-function-is-defined.js",
+		"/D/workcomplex/jslab/varobj/closures/static-lexical-scope.js",
+		"/D/workcomplex/jslab/varobj/this/global-this.js",
+		"/D/workcomplex/jslab/varobj/block-scope.js",
+		"/D/workcomplex/jslab/varobj/my-vo-test2.js",
+		"/D/workcomplex/jslab/varobj/my-vo-test.js",
+		"/D/workcomplex/jslab/varobj/deletaeable-property.js",
+		"/D/workcomplex/jslab/varobj/indirectly-reference-varible.js",
+		"/D/workcomplex/jslab/varobj/local-block-do-not-exist-in-js.js",
+		"/D/workcomplex/jslab/varobj/global-object.js",
+		"/D/workcomplex/jslab/varobj/entering-phase.js",
+		"/D/workcomplex/jslab/varobj/function/function-statement.js",
+		"/D/workcomplex/jslab/varobj/context-code-phase2.js",
+		"/D/workcomplex/jslab/varobj/activation-object.js",
+		"/D/workcomplex/jslab/varobj/function/other-iife.js",
+		"/D/workcomplex/jslab/varobj/function/iife-2.js",
+		"/D/workcomplex/jslab/varobj/function/iife.js",
+		"/D/workcomplex/jslab/varobj/function/grouping-operators-2.js",
+		"/D/workcomplex/jslab/varobj/function/grouping-operators.js",
+		"/D/workcomplex/jslab/varobj/function/conditional-fe.js",
+		"/D/workcomplex/jslab/varobj/function/encapsulated-scope-clg.js",
+		"/D/workcomplex/jslab/varobj/function/encapsulated-scope.js",
+		"/D/workcomplex/jslab/varobj/function/variable-assigned-fe.js",
+		"/D/workcomplex/jslab/varobj/function/fe-fun-as-arg.js",
+		"/D/workcomplex/jslab/varobj/function/fe-not-being-in-vo.js",
+		"/D/workcomplex/jslab/varobj/my-vo-test",
+		"/D/workcomplex/jslab/varobj/parent-prop1.js",
+		"/D/mus/home,html.html",
+		"/C/Users/Vincent/Downloads/terminus",
+		"/D/workcomplex/jslab/varobj/local-block-do-not-exist-in-js",
+		"/D/workcomplex/aspnet/CiannaConsultancy/db/CianaConsult_Data.sql",
+		"/D/workcomplex/aspnet/CiannaConsultancy/db/CianaConsult_Schema.sql",
+		"/C/Users/Vincent/Downloads/CSharpSamples/LinqSamples/DynamicQuery/DynamicQuery/Dynamic.cs",
+		"/C/Users/Vincent/Downloads/CSharpSamples/LinqSamples/DynamicQuery/DynamicQuery/Program.cs",
+		"/C/Users/Vincent/Downloads/dynamiclinqcsharp/Default.aspx.cs",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Validation/Attributes/FileSizeAttribute.cs",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Controllers/AuctionController.cs",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Models/AuctionViewModels.cs",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Controllers/CartController.cs",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Controllers/OrderController.cs",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Controllers/AccountController.cs",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Global.asax.cs",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Binders/CartModelBinder.cs",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Models/Auction.cs",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Views/Auction/Create.cshtml",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Web.config",
+		"/D/music-2016/Joe Hisaishi/js-cookie-master/README.md",
+		"/D/workcomplex/HTML/pci/joli/aaron_form2.html",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/App_Start/Startup.Auth.cs",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Views/Auction/Detail.cshtml",
+		"/D/MIT2016S2-Notes/ASP.NET/week10/MVC5ManukauTech_ResponseQS_v03_WS/MVC5ManukauTech/Views/QSForm/Index.cshtml",
+		"/D/MIT2016S2-Notes/ASP.NET/week10/MVC5ManukauTech_ResponseQS_v03_WS/MVC5ManukauTech/Controllers/QSFormController.cs",
+		"/D/MIT2016S2-Notes/ASP.NET/Question03_SpaceShipFormALT/MVCManukauTech/Controllers/SpaceShipController.cs",
+		"/D/MIT2016S2-Notes/ASP.NET/week10/MVC5ManukauTech_ResponseQS_v03_WS/MVC5ManukauTech/Controllers/QSController.cs",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Views/Auction/ConfirmBid.cshtml",
+		"/D/workcomplex/HTML/pci/joli/pages-login.html",
+		"/D/MIT2016S2-Notes/Special Topics/WeBid-Reverse-Queries.sql",
+		"/D/workcomplex/aspnet/CianaConsultancy/CianaConsultancy/Views/Assessment/SectionQuestions.cshtml",
+		"/D/workcomplex/HTML/pci/joli/css/custom.css",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/TeAwaOnlineArtworkAuction/Views/Shared/_Layout.cshtml",
+		"/D/workcomplex/aspnet/MVCManukauTech_v03.4_XSpyCart_v11.2_island_DB/MVCManukauTech.Tests/RemoteFunctionsTest.cs",
+		"/D/workcomplex/TestApplication/TestApplication.Tests/Controllers/EmployeeControllerTest.cs",
+		"/D/workcomplex/backup/UIBrowserTest.cs",
+		"/D/workcomplex/TestApplication/TestApplication.Tests/TestApplication.Tests.csproj",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/db/Azure_Mig_Data.sql",
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/db/Azure_Mig.sql",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Views/Shared/_Layout.cshtml",
+		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Views/Account/Register.cshtml"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vinceController",
+			"clubsController",
+			"class=\"img-responsive content-center\"",
+			"ModifyDynamicFieldValues",
+			"SAQ",
+			"remove",
+			".flip-container",
+			"#content .product .flip-container",
+			"dropdown",
+			"yamm-fw",
+			"search-not-mobile",
+			"search",
+			"navbar-buttons",
+			"same-height-row",
+			"animations",
+			"fadeInDown",
+			"OutterCursor",
+			"the",
+			"bid table",
+			"proxy table",
+			"”",
+			"“"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"AuctionCursor",
+			"Bid_Table",
+			"Proxy_Table",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Install Emmet",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/routing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								658,
+								672
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/common/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ln-angular.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

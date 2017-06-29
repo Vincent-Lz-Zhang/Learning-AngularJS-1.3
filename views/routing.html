@@ -1,0 +1,34 @@
+<section>
+    <p style="font-size: 28px;">
+        Highlights
+    </p>
+    <ul>
+        <li><span style="background-color: #D7DDC6">angular-route.js</span> provides a module called ngRoute, which does routing and deep-linking services and directives for AngularJS apps.</li>
+        <li>Routing is taken care by an AngularJS Provider called <span style="background-color: #D7DDC6">$routeProvider</span>.</li>
+        <li>Add depedecy on ngRout to the main module, which is <span style="background-color: #D7DDC6">vinceApp</span>.</li>
+        <li>define <span  style="background-color: #D7DDC6">routeConfigurator()</span> function, where the mappings are defined using the provider for the $route service, <span style="background-color: #D7DDC6">$routeProvider</span>.</li>
+        <li>call <span style="background-color: #D7DDC6">config()</span> on module, passing <span style="background-color: #D7DDC6">routeConfigurator</span></li>
+        <li><span style="background-color: #D7DDC6">ng-view</span> combined with route together, you can implement navigation</li>
+        <li>When the value returned by the <span style="background-color: #D7DDC6">$location.path</span> method matches one of the mappings, the corresponding view file will be loaded and displayed.</li>
+        <li><span style="background-color: #D7DDC6">$routeProvider</span> accepts two arguments, the second is a config object, you have to provide its <span style="background-color: #D7DDC6">templateUrl</span>.</li>
+        <li>add url path to anchor tag: <span style="background-color: #D7DDC6">#/path</span></li>
+        <li>or call <span style="background-color: #D7DDC6">$location.path()</span> to trigger navigation (you will need to add the dependency on $location).</li>
+        <li><span style="background-color: #D7DDC6">$location</span> supports different modes, you can config it in <span  style="background-color: #D7DDC6">routeConfigurator()</span></li>
+    </ul>
+    <p>
+        The structure of routing in AngularJS:
+        <a href="https://www.slideshare.net/EyalV/routing-29524624" target="_blank"><img src="imgs/angularjs-routing-structure.jpg" alt=""></a>
+    </p>
+    <p>
+        The event pipeline of routing in AngularJS:
+        <a href="https://www.slideshare.net/nirkaufman/angular-js-routing-options" target="_blank"><img src="imgs/angular-js-routing-pipeline.jpg" alt=""></a>
+    </p>
+    <p style="font-size: 28px;">
+        Other backgrounds:
+    </p>
+    <ul>
+        <li>angular.js ships The core of AngularJS framework. On top of that, it provides 10 optional modules for other features, with each in a separate file, like angular-route.js.</li>
+        <li><span style="background-color: #D7DDC6">Provider</span> is a type of AngularJS services, other ways to create services include Factory, Service and Value.</li>
+        <li>A provider is used to create a configurable service object. It returns value by using <span style="background-color: #D7DDC6">$get()</span> function.</li>
+    </ul>
+</section>

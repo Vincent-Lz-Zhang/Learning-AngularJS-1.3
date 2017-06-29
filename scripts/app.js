@@ -6,29 +6,40 @@
 (function() {
 	'use strict';
 
-	angular.module("vinceApp", []);
+	angular.module("vinceApp", ["ngRoute"]).config(routeConfigurator);
 
 	angular.module("vinceApp").controller("vinceCtrl", vinceController);
 
-	vinceController.$inject = ['$scope'];
+	vinceController.$inject = ['$scope', '$location'];
 
-	function vinceController($scope) {
-		$scope.displayDefaultContent = true;
+	function vinceController($scope, $location) {
+		$scope.displayDefaultContent = false;
 		$scope.expressedContent = "property defined in $scope can also be accessed in angular expression, we will cover angularjs expression soon";
-		$scope.toggleDefaultContent = function () {
-			$scope.displayDefaultContent = !$scope.displayDefaultContent;
-		};
+		
 		function init() {
-			$scope.displayDefaultContent = false;
+			$scope.displayDefaultContent = true;
+			$location.path("#/routing");	// does not work
 		};
 		// init actions go here
 		init();
 	}
+	
+	routeConfigurator.$inject = ['$routeProvider'];
 
-	// a shortcut is, but it is not recommended, for details, refer to https://github.com/mgechev/angularjs-style-guide#controllers
-	/*
-	angular.module("vinceApp").controller("vinceCtrl", function vinceController($scope) {
-		...
-	});
-	*/
+	function routeConfigurator($routeProvider) {
+		$routeProvider
+		.when("/startup", {
+			templateUrl: "views/startup.html"
+		})
+		.when("/controller", {
+			templateUrl: "views/controller.html"
+		})
+		.when("/routing", {
+			templateUrl: "views/routing.html"
+		})
+		.otherwise({
+			templateUrl: "views/routing.html"
+		});
+	}
+
 })();

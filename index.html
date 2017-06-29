@@ -22,65 +22,22 @@
 <body ng-controller="vinceCtrl">
     <!-- Header -->
     <div class="wrapper row1">
-        <ng-include src="'views/header.html'"></ng-include>
+        <ng-include src="'views/common/header.html'"></ng-include>
     </div>
     <!-- content -->
     <div class="wrapper row2">
         <div id="container" class="clear">
-            <button class="button" ng-click="toggleDefaultContent()">Toggle</button>
             <!-- content body -->
-            <section ng-show="displayDefaultContent">
-                <p style="font-size: 28px;">
-                    Highlights
-                </p>
-                <ul>
-                    <li>Module is container of reusable components, it is defined by using angular.module()</li>
-                    <li>One html page can be assigned only one module, via ng-app directive on html tag</li>
-                    <li>app.js is the entry point of the js part of the application</li>
-                    <li>ng-include is used to load html fragements from external html file, it limits the file to be in the same domain</li>
-                    <li>Auto-bootstraping process
-                        <ol>
-                            <li>Angular initializes automatically upon DOMContentLoaded event or when the angular.js script is downloaded to the browser and the document.readyState is set to complete.</li>
-                            <li>AngularJS looks for the ng-app directive</li>
-                            <li>After finding the ng-app directive
-                                <ol>
-                                    <li>Load the module associated with the directive.</li>
-                                    <li>Create the application injector.</li>
-                                    <li>Compile the DOM starting from the ng-app root element.</li>
-                                </ol>
-                            </li>
-                        </ol>
-                    </li>
-                </ul>
-                <p>
-                    <img src="imgs/angularjs-auto-bootstrap-process.png" alt="">
-                </p>
-            </section>
-            <section>
-                <p style="font-size: 28px;">
-                    Highlights
-                </p>
-                <ul>
-                    <li>AngularJS controllers are just JavaScript constructor functions that are used to hold scopes and to expose behaviors that views can use</li>
-                    <li>The controller defines the actual behavior of your app. It contains business logic for the view and connects the model to view with the help of <span style="background-color: #D7DDC6">$scope</span>.</li>
-                    <li>A controller is associated with a HTML element with the ng-controller directive.</li>
-                    <li>When a controller is created during runtime, the $injector will inject the $scope argument</li>
-                    <li>Controllers add properties and functions to the $scope, in this example, we have property displayDefaultContent and function toggleDefaultContent, and they can be accessed in the expressions assigned to <span style="background-color: #D7DDC6">ng-click</span> and <span style="background-color: #D7DDC6">ng-show</span>.</li>
-                    <li>ng-click and ng-show are built-in directives, which we will cover soon</li>
-                    <li>{{expressedContent}}</li>
-                </ul>
-                <p>
-                    <img src="imgs/scope1.jpg" alt="">
-                </p>
-            </section>
+            <ng-view />
         </div>
     </div>
     <!-- Footer -->
     <div class="wrapper row3">
-        <ng-include src="'views/footer.html'"></ng-include>
+        <ng-include src="'views/common/footer.html'"></ng-include>
     </div>
     <!-- scripts -->
     <script src="scripts/angular.js"></script>
+    <script src="scripts/ngmodules/angular-route.js"></script>
     <script src="scripts/app.js"></script>
 </body>
 
