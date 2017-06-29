@@ -18,7 +18,7 @@
 		
 		function init() {
 			$scope.displayDefaultContent = true;
-			$location.path("#/routing");	// does not work
+			$location.path("/routing");	// does not work
 		};
 		// init actions go here
 		init();
@@ -38,7 +38,7 @@
 			templateUrl: "views/routing.html"
 		})
 		.otherwise({
-			templateUrl: "views/routing.html"
+			templateUrl: "views/startup.html"
 		});
 	}
 
