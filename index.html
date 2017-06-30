@@ -16,11 +16,14 @@
         display: inline-block;
         font-size: 16px;
     }
+    li {
+        margin-top: 6px;
+    }
     </style>
 </head>
 
 <body ng-controller="vinceCtrl">
-    <!-- Header -->
+    <!-- header -->
     <div class="wrapper row1">
         <ng-include src="'views/header.html'"></ng-include>
     </div>
@@ -34,45 +37,133 @@
                     Highlights
                 </p>
                 <ul>
-                    <li>Module is container of reusable components, it is defined by using angular.module()</li>
-                    <li>One html page can be assigned only one module, via ng-app directive on html tag</li>
-                    <li>app.js is the entry point of the js part of the application</li>
-                    <li>ng-include is used to load html fragements from external html file, it limits the file to be in the same domain</li>
-                    <li>Auto-bootstraping process
-                        <ol>
-                            <li>Angular initializes automatically upon DOMContentLoaded event or when the angular.js script is downloaded to the browser and the document.readyState is set to complete.</li>
-                            <li>AngularJS looks for the ng-app directive</li>
-                            <li>After finding the ng-app directive
-                                <ol>
-                                    <li>Load the module associated with the directive.</li>
-                                    <li>Create the application injector.</li>
-                                    <li>Compile the DOM starting from the ng-app root element.</li>
-                                </ol>
-                            </li>
-                        </ol>
+                    <li>The <span style="background-color: #D7DDC6">$http</span> service is used to make and process Ajax requests, which are standard HTTP requests that are performed asynchronously.</li>
+                    <li>The sample comes from &lt;Pro AngularJS&gt;.</li>
+                    <li>Declare a dependency on the $http service in the controller.</li>
+                    <li>The <span style="background-color: #D7DDC6">$http</span> service defines six convenience method:
+                        <ul>
+                            <li>get(url, config)</li>
+                            <li>post(url, data, config)</li>
+                            <li>delete(url, config)</li>
+                            <li>put(url, data, config)</li>
+                            <li>head(url, config)</li>
+                            <li>patch(url, config) *?</li>
+                            <li>jsonp(url, config)</li>
+                        </ul>
                     </li>
+                    <li>The above methods returns a promise object, and it has three methods:
+                        <ul>
+                            <li><span style="background-color: Greenyellow">success(fn)</span> - Invokes the specified function when the HTTP request has successfully completed (Note: extended specially for $http, may be deprecated)</li>
+                            <li><span style="background-color: Greenyellow">error(fn)</span> - Invokes the specified function when the request does not complete successfully (Note: extended specially for $http, may be deprecated)</li>
+                            <li><span style="background-color: Greenyellow">then(successCallback, errorCallback, notifyCallback)</span> - from promise</li>
+                            <li><span style="background-color: Greenyellow">catch(errorCallback)</span> - from promise</li>
+                            <li><span style="background-color: Greenyellow">finally(callback)</span> - from promise</li>
+                        </ul>
+                    </li>
+                    <li>The success function is passed the data that the server sends.</li>
+                    <li>The error function is passed a string that describes the problem that occurred.</li>
+                    <li>If the response from the server is JSON data, then AngularJS will parse the JSON to create JavaScript objects and pass them to the success function automatically.</li>
+                    <li>The then method provides access to more detailed information about the response from the server.</li>
+                    <li>The object that the then method passes to its success and error functions defines the following properties:
+                        <ul>
+                            <li><span style="background-color: Greenyellow">data</span> - Returns the data from the request</li>
+                            <li><span style="background-color: Greenyellow">status</span> - Returns the HTTP status code returned by the server</li>
+                            <li><span style="background-color: Greenyellow">headers</span> - Returns a function that can be used to obtain headers by name</li>
+                            <li><span style="background-color: Greenyellow">config</span> - The configuration object used to make the request</li>
+                        </ul>
+                    </li>
+                    <li>The methods defined by the $http service all accept an optional argument of an object containing configuration settings:
+                        <ul>
+                            <li><span style="background-color: Greenyellow">data</span> - Sets the data sent to the server. If you set this to an object, AngularJS will serialize it to the JSON format.</li>
+                            <li><span style="background-color: Greenyellow">headers</span></li>
+                            <li><span style="background-color: Greenyellow">method</span></li>
+                            <li><span style="background-color: Greenyellow">params</span> - Used to set the URL parameters. Set params to an object whose property names and values correspond to the parameters you want to include.</li>
+                            <li><span style="background-color: Greenyellow">timeout</span></li>
+                            <li><span style="background-color: Greenyellow">transformRequest</span> - Used to manipulate the request before it is sent to the server. </li>
+                            <li><span style="background-color: Greenyellow">transformResponse</span> - Used to manipulate the response when it arrives from the server. Note: AngularJS defines two built-in transformations; outgoing data is serialized into JSON, and incoming JSON data is parsed into JavaScript objects.</li>
+                            <li><span style="background-color: Greenyellow">url</span></li>
+                            <li><span style="background-color: Greenyellow">withCredentials</span></li>
+                            <li><span style="background-color: Greenyellow">xsrfHeaderNamexsrfCookieName</span></li>
+                            <li><span style="background-color: Greenyellow">cache</span></li>
+                        </ul>
+                    </li>
+                    <li>You can define <span style="background-color: #FFE4C4">default settings</span> for Ajax requests through the provider for the $http service, <span style="background-color: #D7DDC6">$httpProvider</span>.</li>
+<li>The $httpProvider also provides a feature called request <span style="background-color: #FFE4C4">interceptors</span>.</li>
+                    <li><span style="background-color: Gold">$http is good for quick retrieval of server-side data that doesn't really need any specific structure or complex behaviors.</span> We will talk about $resource, Kris Kowal's Q,  $q and Restangular shortly.</li>
                 </ul>
                 <p>
-                    <img src="imgs/angularjs-auto-bootstrap-process.png" alt="">
+                    <img src="imgs/Angular-Http.jpg" alt="">
                 </p>
-            </section>
-            <section>
+                <p>
+                    <img src="imgs/image8.png" alt="">
+                </p>
+                <p>
+                    <img src="imgs/post.http.AngularJs.png" alt="">
+                </p>
                 <p style="font-size: 28px;">
-                    Highlights
+                    Reference
                 </p>
                 <ul>
-                    <li>AngularJS controllers are just JavaScript constructor functions that are used to hold scopes and to expose behaviors that views can use</li>
-                    <li>The controller defines the actual behavior of your app. It contains business logic for the view and connects the model to view with the help of <span style="background-color: #D7DDC6">$scope</span>.</li>
-                    <li>A controller is associated with a HTML element with the ng-controller directive.</li>
-                    <li>When a controller is created during runtime, the $injector will inject the $scope argument</li>
-                    <li>Controllers add properties and functions to the $scope, in this example, we have property displayDefaultContent and function toggleDefaultContent, and they can be accessed in the expressions assigned to <span style="background-color: #D7DDC6">ng-click</span> and <span style="background-color: #D7DDC6">ng-show</span>.</li>
-                    <li>ng-click and ng-show are built-in directives, which we will cover soon</li>
-                    <li>{{expressedContent}}</li>
+                    <li>Pro AngularJS Chapter 20: Services for Ajax and Promises</li>
+                    <li>Professional AngularJS Chapter 8: Server Communication</li>
+                    <li><a href="https://code.angularjs.org/1.3.2/docs/api/ng/service/$http">/ API Reference / ng / service components in ng / $http</a></li>
+                    <li><a href="http://www.concretepage.com/angular-js/angularjs-http-get-example">AngularJS $http.get Example</a></li>
+
                 </ul>
-                <p>
-                    <img src="imgs/scope1.jpg" alt="">
-                </p>
             </section>
+            <div class="">
+                <div class="">
+                    <table class="">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-hide="products.length">
+                                <td colspan="3" class="">No Data</td>
+                            </tr>
+                            <tr ng-repeat="item in products">
+                                <td>{{item.name}}</td>
+                                <td>{{item.category}}</td>
+                                <td>{{item.price | currency}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        <button class="button" ng-click="loadData()">Load Data</button>
+                    </p>
+                </div>
+            </div>
+            <br>
+            <div class="">
+                <div class="">
+                    <table class="">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-hide="products_then.length">
+                                <td colspan="3" class="">No Data</td>
+                            </tr>
+                            <tr ng-repeat="item in products_then">
+                                <td>{{item.name}}</td>
+                                <td>{{item.category}}</td>
+                                <td>{{item.price | currency}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        <button class="button" ng-click="loadDataWithThen()">Load Data</button>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Footer -->
