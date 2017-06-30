@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"marg",
+				"margin-top"
+			],
+			[
 				"back",
 				"background-color"
 			],
@@ -52,26 +56,7 @@
 			"file": "scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 1614,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "server/productData.json",
-			"settings":
-			{
-				"buffer_size": 446,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "[{ \"name\": \"Apples\", \"category\": \"Fruit\", \"price\":"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 6407,
+				"buffer_size": 1909,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -142,17 +127,17 @@
 	"expanded_folders":
 	[
 		"/C/wamp/www/ng-vince",
-		"/C/wamp/www/ng-vince/server",
 		"/C/wamp/www/ng-vince/styles",
 		"/C/wamp/www/ng-vince/views"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/ng-vince/index.html",
+		"/C/wamp/www/ng-vince/server/productData.json",
 		"/C/wamp/www/ng-vince/ajax.html",
 		"/C/wamp/www/ng-vince/scripts/app.js",
 		"/C/wamp/www/ng-vince/views/controller.html",
 		"/C/wamp/www/ng-vince/views/routing.html",
-		"/C/wamp/www/ng-vince/index.html",
 		"/C/wamp/www/ng-vince/views/common/header.html",
 		"/C/wamp/www/ng-vince/views/startup.html",
 		"/C/wamp/www/ng-vince/views/header.html",
@@ -274,12 +259,11 @@
 		"/D/workcomplex/backup/UIBrowserTest.cs",
 		"/D/workcomplex/TestApplication/TestApplication.Tests/TestApplication.Tests.csproj",
 		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/db/Azure_Mig_Data.sql",
-		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/db/Azure_Mig.sql",
-		"/D/workcomplex/aspnet/TotaraPhotographyAssociation/TotaraPhotographyAssociation/Views/Shared/_Layout.cshtml"
+		"/D/workcomplex/aspnet/OnlineArtworkAuction/TeAwaOnlineArtworkAuction/db/Azure_Mig.sql"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -293,6 +277,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#D7DDC6",
 			"vinceController",
 			"clubsController",
 			"class=\"img-responsive content-center\"",
@@ -336,7 +321,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -364,7 +349,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -373,15 +358,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1614,
+						"buffer_size": 1909,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								927,
-								927
+								402,
+								402
 							]
 						],
 						"settings":
@@ -390,66 +375,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 300.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "server/productData.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								419,
-								419
-							]
-						],
-						"settings":
-						{
-							"auto_name": "[{ \"name\": \"Apples\", \"category\": \"Fruit\", \"price\":",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6407,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1036,
-								1041
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 561.0,
+						"translation.y": 260.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
